@@ -201,7 +201,7 @@ export default function Home() {
               className="bg-[#fff7f0] p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 text-left"
             >
               <FaQuoteLeft className="text-amber-600 text-2xl mb-4" />
-              <p className="text-gray-700 italic mb-6">"{testimonial.feedback}"</p>
+              <p className="text-gray-700 italic mb-6">&quot;{testimonial.feedback}&quot;</p>
               <div className="flex items-center gap-4">
                 <Image
                   src={testimonial.image}
